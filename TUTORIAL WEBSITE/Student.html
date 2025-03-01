@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/08c3aa2e44.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <style>
+
+    </style>
+    </head>
+
+    <body>
+
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>Learning Hub</b> | Student Page</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto"></ul> <!-- Empty UL for spacing -->
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar and Main Content Section -->
+        <div class="container-fluid mt-5">
+            <div class="row">
+
+                <!-- Sidebar -->
+                <nav class="col-md-2 sidebar p-3 text-light">
+                    <div class="text-center">
+                        <img class="profile-img" src="IMAGES/logo.jpg" alt="logo">
+                        <h5 class="text-light mt-2">Learning Hub</h5>
+                        <br>
+                        <img class="student-img" src="IMAGES/student image.jpg" alt="student image">
+                        <h5>SYBCA</h5>
+                        <h5>A GRADE IN 3rd SEM</h5>
+
+
+                    </div>
+
+                    <h4 class="text-primary text-center mt-3">Main Menu</h4>
+                    <ul class="navbar-nav flex-column mt-3">
+                        <li class="nav-item"><a class="nav-link text-light" href="admin.html"><i
+                                    class="fa-solid fa-gauge"></i>
+                                Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fa-solid fa-flag"></i>
+                                Results</a></li>
+                    </ul>
+
+                    <h4 class="text-primary text-center mt-3">General</h4>
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fa-solid fa-bell"></i>
+                                Notifications</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="Tutor.html"><i
+                                    class="fa-solid fa-clipboard-user"></i> Tutor</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="Student.html"><i
+                                    class="fa-solid fa-clipboard-user"></i> Student</a></li>
+                    </ul>
+
+                    <h4 class="text-primary text-center mt-3">Account</h4>
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fa-solid fa-user"></i>
+                                Profile</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fa-solid fa-gear"></i>
+                                Settings</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i
+                                    class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Main Content -->
+
+                <main class="col-md-10 p-4">
+                    <h1><i class="fa-solid fa-clipboard-user"></i>Student</h1>
+                    <hr>
+
+                    <div class="cards">
+                        <div class="card-single">
+                            <div>
+
+                                <center> <span class="balance"><b><i class="fa-solid fa-scale-balanced"></i></b></span>
+                                </center>
+                                <h1>10,000</h1>
+                                <h5>Balance fees</h5>
+                            </div>
+                        </div>
+                        <div class="card-single">
+                            <div>
+                                <center>
+                                    <span class="balance"><i class="fa-solid fa-file"></i></span>
+                                </center>
+                                <h1>60%</h1>
+                                <h5>Completed assignment</h5>
+                            </div>
+                        </div>
+                        <div class="card-single">
+                            <div>
+                                <center>
+                                    <span class="balance"><i class="fa-solid fa-bell"></i></span>
+                                </center>
+                                <h1>5</h1>
+                                <h5>Notification</h5>
+                            </div>
+                        </div>
+                        <div class="card-single">
+                            <div>
+                                <center>
+                                    <span class="balance"><i class="fa-solid fa-address-book"></i></span>
+                                </center>
+                                <h1>10</h1>
+                                <h5>Notes</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-container">
+                        <a href="" class="btn btn-primary"><i class="fa-solid fa-calendar-days mr-2"></i> Time-Table</a>
+                        <br>
+                        <br>
+                        <table class="table table-striped table-bordered" style="width:65%;">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Monday</th>
+                                    <th scope="col">Tuesday</th>
+                                    <th scope="col">Wednesday</th>
+                                    <th scope="col">Thursday</th>
+                                    <th scope="col">Friday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">07:00:00 am</th>
+                                    <td>Shraddha(CAG)</td>
+                                    <td>SAarti(Javascript)</td>
+                                    <td>Kishor(DSA)</td>
+                                    <td>Manoj(CN)</td>
+                                    <td>Prasad(PHP)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">08:00:00 am</th>
+                                    <td>Meghna(WP)</td>
+                                    <td>SAarti(Javascript)</td>
+                                    <td>Shraddha(CAG)</td>
+                                    <td>Manoj(CN)</td>
+                                    <td>SANJANA(JAVA)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">09:00:00 am</th>
+                                    <td>Shraddha(CAG)</td>
+                                    <td>Meghna(WP)</td>
+                                    <td>Kishor(DSA)</td>
+                                    <td>Manoj(CN)</td>
+                                    <td>Prasad(PHP)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!--time-table closed-->
+
+
+                        <!--to do list-->
+
+                        <table class="table table-striped table-bordered mt-5">
+                            <thead>
+                                <a href="" class="btn btn-primary"><i class="fa-solid fa-file mr-2 "></i> Assignments
+                                    and attendence</a>
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Assignment No</th>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Deadline</th>
+                                    <th scope="col">Check</th>
+                                    <th scope="col"> </th>
+                                    <th scope="col"> </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">21-05-2025</th>
+                                    <td>Assignment No-5</td>
+                                    <td>CGA</td>
+                                    <td>25-02-2025</td>
+                                    <td><a href="" class="btn btn-primary">Open</a></td>
+                                    <td><i class="fa-solid fa-pen-to-square bg-warning p-2 text-white rounded"></i></td>
+                                    <td><i class="fa-solid fa-check bg-danger p-2 text-white rounded"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">19-05-2025</th>
+                                    <td>Assignment No-2</td>
+                                    <td>CN</td>
+                                    <td>28-02-2025</td>
+                                    <td><a href="" class="btn btn-primary">Open</a></td>
+                                    <td><i class="fa-solid fa-pen-to-square bg-warning p-2 text-white rounded"></i></td>
+                                    <td><i class="fa-solid fa-check bg-danger p-2 text-white rounded"></i></td>
+                                </tr>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">26-05-2025</th>
+                                    <td>Assignment No-5</td>
+                                    <td>Javascript</td>
+                                    <td>28-02-2025</td>
+                                    <td><a href="" class="btn btn-primary">Open</a></td>
+                                    <td><i class="fa-solid fa-pen-to-square bg-warning p-2 text-white rounded"></i></td>
+                                    <td><i class="fa-solid fa-check bg-danger p-2 text-white rounded"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">18-05-2025</th>
+                                    <td>Journal</td>
+                                    <td>WP</td>
+                                    <td>01-03-2025</td>
+                                    <td><a href="" class="btn btn-primary">Open</a></td>
+                                    <td><i class="fa-solid fa-pen-to-square bg-warning p-2 text-white rounded"></i></td>
+                                    <td><i class="fa-solid fa-check bg-danger p-2 text-white rounded"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">20-05-2025</th>
+                                    <td>Project</td>
+                                    <td>Java</td>
+                                    <td>28-02-2025</td>
+                                    <td><a href="" class="btn btn-primary">Open</a></td>
+                                    <td><i class="fa-solid fa-pen-to-square bg-warning p-2 text-white rounded"></i></td>
+                                    <td><i class="fa-solid fa-check bg-danger p-2 text-white rounded"></i></td>
+                                </tr>
+
+                            </tbody>
+                            <!--assignment and aanlytics-->
+
+                            <div class="job-grid">
+                                <div class="analytics-card">
+                                    <div class="analytics-head">
+                                        <span class="las la-ellipsis-h"></span>
+                                        <div class="analytics-chart">
+                                            <div class="chart-circle">
+                                                <h4>74%</h4>
+                                            </div>
+                                        </div>
+                                        <div class="analytics-notes">
+                                            <small>note:your Attendence of current month</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+
+
+
+
+
+                    </table>
+                </main>
+            </div>
+
+
+
+
+
+
+
+            <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color:lightgrey;
+    }
+
+    .sidebar {
+        height: 1000px;
+        background-color: #343a40;
+    }
+
+    .profile-img {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .display-4 {
+        font-weight: bold;
+    }
+
+    .card-body-icon {
+        position: absolute;
+        z-index: 0;
+        top: 70px;
+        right: 4px;
+        opacity: 0.4;
+        font-size: 50px;
+    }
+
+    /* Profile Section */
+
+    .profile-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .student-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    /* Profile Text */
+    h5 {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    p {
+        color: #666;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    /* Profile Button */
+    .btn-outline-success {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 8px 15px;
+        font-size: 14px;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+    }
+
+    .btn-outline-success:hover {
+        background-color: #0056b3;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .nav-item {
+        list-style: none;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 12px 20px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+        height: 100%;
+    }
+
+    .nav-link i {
+        margin-right: 10px;
+        color: white;
+        white-space: nowrap;
+    }
+
+    .nav-link:hover {
+        background-color: gray;
+        color: black;
+        border-radius: 1px;
+        white-space: nowrap;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+        color: rgb(253, 108, 108);
+     
+    }
+
+    .card-single {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        border-radius: 13px;
+        margin-bottom: 10px;
+        width: 80%;
+        height:90%;
+        background-color: rgb(195, 190, 190);
+    }
+
+    .card-single h5{
+        color:#999393;
+        margin-left:50px;
+    }
+    .card-single h1{
+        color:#343a40;
+        margin-left:25%;
+    }
+
+
+
+    .job-grid {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: auto 68%;
+        grid-gap: 3rem;
+    }
+
+    .job-grid .analytics-card {
+        background: #fff;
+        padding: 1.5rem;
+    }
+
+    .analytics-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .analytics-head span {
+        font-size: 1.5rem;
+    }
+
+    .chart-circle {
+        height: 150px;
+        width: 150px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid #5850ec;
+        border-bottom: 10px solid #5850ec;
+        border-top: 10px solid #5850ec;
+        display: grid;
+        place-items: center;
+        margin: auto;
+        border-radius: 50%;
+    }
+</style>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
